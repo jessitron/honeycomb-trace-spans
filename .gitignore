@@ -4,6 +4,9 @@ node_modules/
 # Build output
 dist/
 
+# npm package
+*.tgz
+
 # TypeScript cache
 *.tsbuildinfo
 
