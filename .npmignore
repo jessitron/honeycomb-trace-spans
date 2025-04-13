@@ -17,6 +17,14 @@ test/
 .prettierrc
 .gitignore
 
+# Utility scripts
+build.sh
+run.sh
+install-global.sh
+publish.sh
+pack.sh
+CONTRIBUTING.md
+
 # Logs
 logs
 *.log
