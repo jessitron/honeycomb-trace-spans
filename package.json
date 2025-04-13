@@ -1,0 +1,46 @@
+{
+  "name": "honeycomb-trace-spans",
+  "version": "1.0.0",
+  "description": "A command-line tool to retrieve all spans in a trace from Honeycomb",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "honeycomb-trace-spans": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "honeycomb",
+    "observability",
+    "tracing",
+    "spans",
+    "opentelemetry",
+    "cli"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/honeycomb-trace-spans.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/honeycomb-trace-spans/issues"
+  },
+  "homepage": "https://github.com/yourusername/honeycomb-trace-spans#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
