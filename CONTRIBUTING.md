@@ -20,19 +20,9 @@ Thank you for your interest in contributing to honeycomb-trace-spans!
    npm run build
    ```
 
-4. Run the script:
-   ```bash
-   export HONEYCOMB_API_KEY=your_api_key
-   ./run.sh your_trace_id
-   ```
-
 ## Scripts
 
-- `build.sh`: Build the package
-- `run.sh`: Run the package locally
-- `install-global.sh`: Install the package globally
 - `publish.sh`: Publish the package to npm
-- `pack.sh`: Create a tarball for distribution
 
 ## Pull Requests
 
@@ -43,4 +33,4 @@ Thank you for your interest in contributing to honeycomb-trace-spans!
 
 ## Code Style
 
-Please follow the existing code style in the project.
+Please follow the existing code style in the project. ← says the AI, who likes its style I guess
