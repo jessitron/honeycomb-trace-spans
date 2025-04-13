@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Check if a version argument is provided
 if [ -z "$1" ]; then
   echo "Usage: ./publish.sh <version>"
@@ -14,6 +16,6 @@ npm version $1
 npm run build
 
 # Publish to npm
-npm publish
+npm publish --access public
 
 echo "Package published successfully!"

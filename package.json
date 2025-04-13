@@ -1,5 +1,5 @@
 {
-  "name": "honeycomb-trace-spans",
+  "name": "@jessitronica/honeycomb-trace-spans",
   "version": "1.0.0",
   "description": "A command-line tool to retrieve all spans in a trace from Honeycomb",
   "main": "dist/index.js",
@@ -22,16 +22,16 @@
     "opentelemetry",
     "cli"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Jessica Kerr <jessitron@honeycomb.io>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/honeycomb-trace-spans.git"
+    "url": "https://github.com/jessitron/honeycomb-trace-spans.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/honeycomb-trace-spans/issues"
+    "url": "https://github.com/jessitron/honeycomb-trace-spans/issues"
   },
-  "homepage": "https://github.com/yourusername/honeycomb-trace-spans#readme",
+  "homepage": "https://github.com/jessitron/honeycomb-trace-spans#readme",
   "dependencies": {
     "node-fetch": "^3.3.2"
   },

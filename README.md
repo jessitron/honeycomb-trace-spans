@@ -18,7 +18,10 @@ npx honeycomb-trace-spans --trace-id <trace_id>
 
 ## Usage
 
+[Get a Honeycomb API Key for your team and environment.](https://docs.honeycomb.io/configure/environments/manage-api-keys/#find-api-keys)
+
 ```bash
+export HONEYCOMB_API_KEY=your_api_key
 honeycomb-trace-spans --trace-id <trace_id> [--time-range <seconds>]
 honeycomb-trace-spans --trace-id <trace_id> --start-time <unix_timestamp> --end-time <unix_timestamp>
 ```
@@ -65,11 +68,7 @@ Example output:
   "summary": {
     "traceId": "abcd1234efgh5678",
     "spanCount": 16,
-    "services": [
-      "service-a",
-      "service-b",
-      "service-c"
-    ],
+    "services": ["service-a", "service-b", "service-c"],
     "rootSpans": 1,
     "timeRange": {
       "start": 1617235200,
@@ -85,7 +84,7 @@ Example output:
       "service": "service-a",
       "duration": 100.5,
       "attributes": {}
-    },
+    }
     // ... more spans ...
   ]
 }
